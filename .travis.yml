@@ -13,6 +13,6 @@ env:
 deploy:
   provider: releases
   file: README.md
-  skip_cleanup: true
+  cleanup: true
   on:
-    tags: false
+    tags: true
