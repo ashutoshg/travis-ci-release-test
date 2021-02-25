@@ -9,7 +9,7 @@ before_deploy:
 
 deploy:
   provider: releases
-  api_key: "179570b561c14bcf0f19f97fa442b6ec5966fd9b"
+  api_key: "27f0096bfa8dcf435c1e39c377b46c5a7ff5cfc0"
   file: README.md
   cleanup: true
   on:
