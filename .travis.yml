@@ -15,4 +15,5 @@ deploy:
   file: README.md
   cleanup: true
   on:
-    tags: true
+    tags: false
+    branch: main
